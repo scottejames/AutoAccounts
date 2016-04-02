@@ -1,0 +1,27 @@
+	
+	<!DOCTYPE hibernate-configuration SYSTEM 
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+	<hibernate-configuration> 
+		<session-factory> 
+			<property name="hibernate.connection.driver_class"> com.mysql.jdbc.Driver </property> 
+			<property name="hibernate.connection.url"> jdbc:mysql://localhost/accounts </property> 
+
+			<property name="hibernate.connection.username">root</property> 
+			<property name="hibernate.connection.password">knot8gen</property> 
+			<property name="hibernate.dialect"> org.hibernate.dialect.MySQL5Dialect </property> 
+			<!-- Show and print nice SQL on stdout --> 
+			<property name="show_sql">true</property> 
+			<property name="format_sql">false</property> 
+			<property name="lazy">false</property>
+			<property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
+			<property name="current_session_context_class">thread</property>
+			<!-- List of XML mapping files --> 
+			
+			<mapping class="scott.nursery.accounts.domain.bo.BaseTransaction"/>
+			<mapping class="scott.nursery.accounts.domain.bo.BaseCheque"/>
+			<mapping class="scott.nursery.accounts.domain.bo.BaseCatagory"/>
+			<mapping class="scott.nursery.accounts.domain.bo.BasePayeeRegularExpression"/>
+			<mapping class="scott.nursery.accounts.domain.bo.BaseCatagoryRegularExpression"/>
+		
+		</session-factory> 
+	</hibernate-configuration> 

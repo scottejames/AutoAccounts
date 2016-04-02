@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="scott/nursery/trash/" kind="src" path=""/>
+	<classpathentry kind="src" path="scott/nursery/trash"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/log4j-1.2.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/migdir/miglayout15-swt.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/poi-3.0.2-beta2-20080112.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Hibernate"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/MVCFramework"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/swt/osx/swt-debug.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/asm-attrs.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/asm.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/c3p0-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/cglib-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/commons-collections-2.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/commons-logging-1.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/ejb3-persistence.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/hibernate-annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/hibernate-commons-annotations.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/hibernate-tools.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/hsqldb.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/hibernate/jta.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/javacsv.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/scott/Projects/Java/JavaLibs/junit/junit-4.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
